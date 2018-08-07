@@ -1,3 +1,11 @@
-# Code your prompts here!
+def letter(guest_name,party_name,date,time,host_name)
+puts " Dear #{guest_name},
 
-# Try starting out with puts'ing a string.
+You are cordially invited to #{party_name} on #{date} at #{time}. Please RSVP no later than #{date}.
+
+Sincerely,
+
+#{host_name}"
+
+end
+letter(Hermione,)
